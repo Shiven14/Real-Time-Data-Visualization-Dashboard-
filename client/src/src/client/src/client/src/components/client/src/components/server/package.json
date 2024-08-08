@@ -1,0 +1,16 @@
+{
+  "name": "real-time-dashboard-server",
+  "version": "1.0.0",
+  "description": "Backend for the Real-Time Data Visualization Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "license": "MIT"
+}
